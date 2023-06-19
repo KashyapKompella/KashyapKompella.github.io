@@ -2,64 +2,73 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Ravi Sree Kashyap Kompella
     - name: Date of Birth
-      value: 14th March 1879
+      value: 12th June 1997
     - name: Languages
-      value: English, German
+      value: English
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Master's Degree in Information Systems
+      institution: Northeastern University, Boston, US
+      year: 2023
+    #   description:
+    #     - Description 1.
+    #     - Description 2.
+    #     - title: Description 3.
+    #       contents:
+    #         - Sub-description 1.
+    #         - Sub-description 2.
+    # - title: 
+    #   institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
+    #   year: 1900
+    #   description:
+    #     - Description 1.
+    #     - Description 2.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Teaching Assistant
+      institution: Northeastern University, Boston, US
+      year: June 2022 – Jan 2023
       description:
-        - Description 1.
+        - Assisted in teaching Software Quality Control and Management (INFO 6255) and Automation testing tools like Selenium.
         - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
+    - title: Prototype Research Investigator Intern
+      institution: Synopsys, Burlington, US
       year: 1933
       description:
-        - Description 1.
-        - Description 2.
+        - Delivered a performance-efficient Scan Client in Go language to analyze projects and identify source component signatures.
+        - Implemented techniques to detect Archives with multiple compression types and examine magic numbers in file byte data.
+        - Boosted application performance by 33% by deploying a Multi-Threaded, In-Memory, Thread-Safe Go language application. 
+        - Reduced application testing time by generating Protocol Buffers and automating testing scripts to compare signatures.
+        - Implemented mutex locks to ensure thread-safe operations and prevent race conditions enhancing overall system stability.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Blockchain Research Engineer
+      institution: Oracle Corporation, Burlington, US
+      year: Jun 2020 – Aug 2021
       description:
+        - Implemented login protocol leveraging BLS Elliptic Curves, X.509 digital certificates to verify identities of network actors.
+        - Conducted research on integrating privacy-preserving systems, non-interactive knowledge proofs, and coin-toss protocols.
+        - Analyzed scalability advantages and disadvantages of DAG consensus in comparison to the traditional Blockchain model. 
+        - Developed expertise in DAO governance protocols, smart contract auditing, and proficiency in deploying Geth Clients.
+        - Utilized cryptographic key pairs for digital signatures, ensuring integrity and authenticity of messages in the network.
+        
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Associate Cloud Engineer
+      institution: Oracle India Pvt Ltd
+      year: June 2018 – May 2020
+      description:
+      - Worked on building RAFT leader elections and heartbeats with gRPC implementation among the nodes in Go language.
+      - Leveraged GoRoutines and channels, to develop concurrent, multithreaded applications to increase transaction throughput.
+      - Developing REST APIs with Python and integrating them into low-code applications for enhanced data integration.
+      - Utilized gRPC protocols for efficient and reliable communication enabling seamless integration and improved performance.
+      - Developed and deployed smart contracts in Go language with token taxonomy in Hyperledger Fabric and Ethereum.
+      - Enabled user roles as in Access Control Lists, smart contract instantiation, and an API gateway interface for chain code.
+
 
 - title: Open Source Projects
   type: time_table
